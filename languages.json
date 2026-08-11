@@ -1,0 +1,385 @@
+{
+  "about": {
+    "what": "Languages a translation may be published in.",
+    "contract": "This list IS the upload contract. The website validates target_language against these names and the mod sends them, so a name added, removed or respelled on one side only shows up as an upload refused by a validation error the contributor did not cause and cannot read. It moves on every side at once or not at all.",
+    "identity": "The NAME is the identity, never the tag. It is what the website stores, what the mod resolves to and what a game's config holds. Five of these have no ISO 639-1 code at all, which is a fact about a 1967 standard and not about a language.",
+    "tag": "BCP 47. For most languages that is the familiar two-letter code, which is already a valid BCP 47 tag; the five without one carry the registered subtag instead - yue, prs, arz, ary, apc - each checked against the IANA Language Subtag Registry rather than written from memory. None of them is deprecated.",
+    "parent": "Set only where the parent is itself an entry in this list, for grouping in a picker. Cantonese has none: its macrolanguage is zh, and this list has Simplified and Traditional Chinese, which are scripts rather than a language it is a variety of. Left empty rather than attached to something it does not belong to.",
+    "aliases": "What somebody would actually type. Present only where a source gives one - the registry's own alternative descriptions here. Nothing invented.",
+    "providers": "Absent on purpose. What Google Translate and DeepL accept is a fact about them, it changes without us, and it has to be taken from their own endpoints rather than typed from a documentation page. An empty or guessed field would read as knowledge.",
+    "not_the_website_interface": "Unrelated to the 19 languages the website's own interface is translated into. Those are fixed and are a different question.",
+    "order": "Same order as the website's config/languages.php, which is the reference for this list. Not because order carries meaning - it does not, the contract is checked by membership - but so that comparing the two sides is a diff anyone can read."
+  },
+  "languages": [
+    {
+      "name": "English",
+      "tag": "en"
+    },
+    {
+      "name": "French",
+      "tag": "fr"
+    },
+    {
+      "name": "German",
+      "tag": "de"
+    },
+    {
+      "name": "Spanish",
+      "tag": "es"
+    },
+    {
+      "name": "Italian",
+      "tag": "it"
+    },
+    {
+      "name": "Portuguese",
+      "tag": "pt"
+    },
+    {
+      "name": "Russian",
+      "tag": "ru"
+    },
+    {
+      "name": "Polish",
+      "tag": "pl"
+    },
+    {
+      "name": "Japanese",
+      "tag": "ja"
+    },
+    {
+      "name": "Korean",
+      "tag": "ko"
+    },
+    {
+      "name": "Simplified Chinese",
+      "tag": "zh"
+    },
+    {
+      "name": "Traditional Chinese",
+      "tag": "zh-tw"
+    },
+    {
+      "name": "Arabic",
+      "tag": "ar"
+    },
+    {
+      "name": "Turkish",
+      "tag": "tr"
+    },
+    {
+      "name": "Dutch",
+      "tag": "nl"
+    },
+    {
+      "name": "Swedish",
+      "tag": "sv"
+    },
+    {
+      "name": "Danish",
+      "tag": "da"
+    },
+    {
+      "name": "Norwegian Bokmål",
+      "tag": "nb"
+    },
+    {
+      "name": "Finnish",
+      "tag": "fi"
+    },
+    {
+      "name": "Czech",
+      "tag": "cs"
+    },
+    {
+      "name": "Hungarian",
+      "tag": "hu"
+    },
+    {
+      "name": "Romanian",
+      "tag": "ro"
+    },
+    {
+      "name": "Greek",
+      "tag": "el"
+    },
+    {
+      "name": "Thai",
+      "tag": "th"
+    },
+    {
+      "name": "Vietnamese",
+      "tag": "vi"
+    },
+    {
+      "name": "Indonesian",
+      "tag": "id"
+    },
+    {
+      "name": "Malay",
+      "tag": "ms"
+    },
+    {
+      "name": "Ukrainian",
+      "tag": "uk"
+    },
+    {
+      "name": "Bulgarian",
+      "tag": "bg"
+    },
+    {
+      "name": "Slovak",
+      "tag": "sk"
+    },
+    {
+      "name": "Croatian",
+      "tag": "hr"
+    },
+    {
+      "name": "Serbian",
+      "tag": "sr"
+    },
+    {
+      "name": "Slovenian",
+      "tag": "sl"
+    },
+    {
+      "name": "Lithuanian",
+      "tag": "lt"
+    },
+    {
+      "name": "Latvian",
+      "tag": "lv"
+    },
+    {
+      "name": "Estonian",
+      "tag": "et"
+    },
+    {
+      "name": "Norwegian Nynorsk",
+      "tag": "nn"
+    },
+    {
+      "name": "Icelandic",
+      "tag": "is"
+    },
+    {
+      "name": "Faroese",
+      "tag": "fo"
+    },
+    {
+      "name": "Irish",
+      "tag": "ga"
+    },
+    {
+      "name": "Welsh",
+      "tag": "cy"
+    },
+    {
+      "name": "Catalan",
+      "tag": "ca"
+    },
+    {
+      "name": "Galician",
+      "tag": "gl"
+    },
+    {
+      "name": "Basque",
+      "tag": "eu"
+    },
+    {
+      "name": "Luxembourgish",
+      "tag": "lb"
+    },
+    {
+      "name": "Afrikaans",
+      "tag": "af"
+    },
+    {
+      "name": "Macedonian",
+      "tag": "mk"
+    },
+    {
+      "name": "Bosnian",
+      "tag": "bs"
+    },
+    {
+      "name": "Albanian",
+      "tag": "sq"
+    },
+    {
+      "name": "Armenian",
+      "tag": "hy"
+    },
+    {
+      "name": "Belarusian",
+      "tag": "be"
+    },
+    {
+      "name": "Persian",
+      "tag": "fa"
+    },
+    {
+      "name": "Dari",
+      "tag": "prs",
+      "parent": "Persian",
+      "aliases": [
+        "Afghan Persian"
+      ]
+    },
+    {
+      "name": "Tajik",
+      "tag": "tg"
+    },
+    {
+      "name": "Hindi",
+      "tag": "hi"
+    },
+    {
+      "name": "Bengali",
+      "tag": "bn"
+    },
+    {
+      "name": "Urdu",
+      "tag": "ur"
+    },
+    {
+      "name": "Punjabi",
+      "tag": "pa"
+    },
+    {
+      "name": "Gujarati",
+      "tag": "gu"
+    },
+    {
+      "name": "Marathi",
+      "tag": "mr"
+    },
+    {
+      "name": "Tamil",
+      "tag": "ta"
+    },
+    {
+      "name": "Telugu",
+      "tag": "te"
+    },
+    {
+      "name": "Kannada",
+      "tag": "kn"
+    },
+    {
+      "name": "Malayalam",
+      "tag": "ml"
+    },
+    {
+      "name": "Oriya",
+      "tag": "or"
+    },
+    {
+      "name": "Sinhala",
+      "tag": "si"
+    },
+    {
+      "name": "Nepali",
+      "tag": "ne"
+    },
+    {
+      "name": "Assamese",
+      "tag": "as"
+    },
+    {
+      "name": "Sindhi",
+      "tag": "sd"
+    },
+    {
+      "name": "Cantonese",
+      "tag": "yue",
+      "aliases": [
+        "Yue Chinese"
+      ]
+    },
+    {
+      "name": "Burmese",
+      "tag": "my"
+    },
+    {
+      "name": "Khmer",
+      "tag": "km"
+    },
+    {
+      "name": "Lao",
+      "tag": "lo"
+    },
+    {
+      "name": "Tagalog",
+      "tag": "tl"
+    },
+    {
+      "name": "Cebuano",
+      "tag": "ceb"
+    },
+    {
+      "name": "Javanese",
+      "tag": "jv"
+    },
+    {
+      "name": "Sundanese",
+      "tag": "su"
+    },
+    {
+      "name": "Azerbaijani",
+      "tag": "az"
+    },
+    {
+      "name": "Uzbek",
+      "tag": "uz"
+    },
+    {
+      "name": "Kazakh",
+      "tag": "kk"
+    },
+    {
+      "name": "Bashkir",
+      "tag": "ba"
+    },
+    {
+      "name": "Tatar",
+      "tag": "tt"
+    },
+    {
+      "name": "Hebrew",
+      "tag": "he"
+    },
+    {
+      "name": "Maltese",
+      "tag": "mt"
+    },
+    {
+      "name": "Egyptian Arabic",
+      "tag": "arz",
+      "parent": "Arabic"
+    },
+    {
+      "name": "Levantine Arabic",
+      "tag": "apc",
+      "parent": "Arabic"
+    },
+    {
+      "name": "Moroccan Arabic",
+      "tag": "ary",
+      "parent": "Arabic"
+    },
+    {
+      "name": "Georgian",
+      "tag": "ka"
+    },
+    {
+      "name": "Swahili",
+      "tag": "sw"
+    },
+    {
+      "name": "Haitian Creole",
+      "tag": "ht"
+    }
+  ]
+}
