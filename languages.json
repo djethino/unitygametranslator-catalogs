@@ -8,7 +8,8 @@
     "aliases": "What somebody would actually type. Present only where a source gives one - the registry's own alternative descriptions here. Nothing invented.",
     "providers": "Absent on purpose. What Google Translate and DeepL accept is a fact about them, it changes without us, and it has to be taken from their own endpoints rather than typed from a documentation page. An empty or guessed field would read as knowledge.",
     "not_the_website_interface": "Unrelated to the 19 languages the website's own interface is translated into. Those are fixed and are a different question.",
-    "order": "Same order as the website's config/languages.php, which is the reference for this list. Not because order carries meaning - it does not, the contract is checked by membership - but so that comparing the two sides is a diff anyone can read."
+    "order": "Same order as the website's config/languages.php, which is the reference for this list. Not because order carries meaning - it does not, the contract is checked by membership - but so that comparing the two sides is a diff anyone can read.",
+    "interface_fallback": "When somebody's system asks for a language the website's interface does not have — Catalan, Breton, Basque — it serves ENGLISH. Uniformly, so no field carries it. The tempting alternative was to fall back to the majority language of the territory: Catalan to Spanish, Breton to French. It would often be more useful and it was rejected on purpose. It decides for somebody what else they speak, and routing a minority language to the language that displaced it is exactly the framing that makes those languages invisible elsewhere. English assumes nothing about anyone. ⚠ This is now a decision rather than an accident: the behaviour was already English, but only because an unmatched locale fell through to the default. Written down so it is not silently 'improved' later."
   },
   "languages": [
     {
