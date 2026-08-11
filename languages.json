@@ -13,7 +13,8 @@
     "sources": {
       "deepl": "https://developers.deepl.com/docs/getting-started/supported-languages, read 2026-08-11 (125 languages)",
       "google": "https://docs.cloud.google.com/translate/docs/languages, Neural Machine Translation table, read 2026-08-11 (232 languages)"
-    }
+    },
+    "also": "Other codes the same language answers to, and it is a recognition list rather than a choice. A system reports zh-CN, a browser sends zh-Hans, Java still emits iw for Hebrew and no is what most systems mean by Norwegian Bokmål. All of them have to be understood; only `tag` is ever written down. Dropping these would not lose a language, it would lose the ability to recognise the machine somebody is actually using."
   },
   "languages": [
     {
@@ -129,6 +130,10 @@
     {
       "name": "Simplified Chinese",
       "tag": "zh",
+      "also": [
+        "zh-cn",
+        "zh-hans"
+      ],
       "providers": {
         "google": "zh-CN",
         "deepl": {
@@ -140,6 +145,9 @@
     {
       "name": "Traditional Chinese",
       "tag": "zh-tw",
+      "also": [
+        "zh-hant"
+      ],
       "providers": {
         "google": "zh-TW",
         "deepl": {
@@ -206,6 +214,9 @@
     {
       "name": "Norwegian Bokmål",
       "tag": "nb",
+      "also": [
+        "no"
+      ],
       "providers": {
         "google": "no",
         "deepl": {
@@ -907,6 +918,9 @@
     {
       "name": "Hebrew",
       "tag": "he",
+      "also": [
+        "iw"
+      ],
       "providers": {
         "google": "he",
         "deepl": {
