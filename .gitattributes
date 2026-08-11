@@ -1,0 +1,20 @@
+# Line endings are LF in this repository, on every platform, without exception.
+#
+# Not a style preference. These files are read as BYTES by things that compare them:
+#
+#   · the shared C# library hashes languages.json and refuses to compile when the hash no longer
+#     matches its generated tables — so a checkout whose line endings differ from the committer's
+#     fails a check about a file nobody changed;
+#   · the website ships a copy of these files and serves it as a mirror, and a script compares the
+#     two to prove they say the same thing;
+#   · the Manager fetches them over HTTP and parses whatever it gets.
+#
+# Before this file existed the repository held BOTH: languages.json and models.json were committed
+# with CRLF, loaders.json with LF, and `core.autocrlf` converted more on top. Two clones of the
+# same commit on two systems therefore held different bytes for identical content — which is
+# indistinguishable from a real divergence right up until somebody spends an evening on it.
+#
+# ⚠ Renormalising moved the hash of languages.json. Anything that records that hash — the shared
+# library's generated tables, and every parent pointing at them — had to be regenerated in the same
+# breath. If you ever change this line, expect the same chain.
+* text=auto eol=lf
