@@ -39,6 +39,35 @@ The same way the loader catalogue already works, and for the same reasons:
 The last step is not a nicety. It means the tool works offline and on a locked-down network: the
 data can be out of date, it can never be missing.
 
+## Two ways to consume this, and the difference is not a preference
+
+Some of these documents are **fetched at run time**. Others are **compiled into a program**. Which
+one applies is decided by a single question:
+
+> If this data goes stale, does the program break, or does it merely miss something new?
+
+**Fetched** — loaders, models. A new mod loader ships, a new model appears. Missing one costs a
+novelty, never a failure: the tool still installs every loader it already knows. Those change
+without us, often, so waiting for a release to carry them would make the release the bottleneck.
+
+**Compiled in** — languages. The mod runs inside a game, frequently with no network at all, and the
+language name it sends IS the upload contract: the website validates against exactly that list. A
+list fetched at run time could disagree with the code that uses it, and a fetch that simply failed
+would leave someone with no language to pick. None of that is a risk worth taking for a list that
+moves once in a blue moon, and that moves with a website release anyway.
+
+⚠ **A fetched catalogue still ships an embedded copy**, and it is the SAME FILE that is served — not
+a snapshot of it. Offline is not a degraded mode to be tolerated; it is the ordinary condition of a
+game machine. Two files would eventually describe two different sets of loaders, and the one that
+answered would depend on the network.
+
+⚠ **Compiled in does not mean unwatched.** The language list exists three times — here, in the
+website's PHP, in the shared C# library — because none of those runtimes can read the others: the
+library targets netstandard2.0, which has no JSON parser and takes no packages, and the website is
+PHP. So this repository is not the single source they all *read*; it is the single source they are
+all *checked against*. The project keeps a script that compares the three and fails on any
+divergence. Run it after touching the list, on every side.
+
 ## Rules that are not negotiable
 
 **A language is identified by its name, not its code.** The website stores a name, its upload
