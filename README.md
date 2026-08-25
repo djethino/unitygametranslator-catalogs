@@ -87,10 +87,15 @@ language, and the person who finds out is a user whose translation request was r
 
 ## Related
 
-- [unitygametranslator][mod] — the mod
-- [unitygametranslator-manager][manager] — the desktop tool
-- [unitygametranslator-common][common] — shared rules, as code
+Five repositories, one product — [see it live][live].
 
-[mod]: https://github.com/djethino/unitygametranslator
+- [UnityGameTranslator][mod] — the mod that translates a game while you play
+- [unitygametranslator-manager][manager] — the desktop tool that finds your games and sets the mod up
+- [UnityGameTranslator-website][website] — where translations are shared, reviewed and merged
+- [unitygametranslator-common][common] — the rules all three answer to, written once
+
+[mod]: https://github.com/djethino/UnityGameTranslator
 [manager]: https://github.com/djethino/unitygametranslator-manager
+[website]: https://github.com/djethino/UnityGameTranslator-website
 [common]: https://github.com/djethino/unitygametranslator-common
+[live]: https://unitygametranslator.asymptomatikgames.com
