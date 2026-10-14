@@ -21,7 +21,6 @@ An entry needs:
 | `tag` | the [BCP 47][bcp47] tag. For most languages this is the familiar two-letter code, which is already a valid BCP 47 tag. |
 | `script` | the [ISO 15924][iso15924] code of the script it is written in — **read from CLDR**, never typed: `likelySubtags.json` for the tag (after `aliases.json` if the tag is an alias), or the script written in the tag itself. |
 | `direction` | `rtl` or `ltr`, the `rtl` field of CLDR's `scriptMetadata.json` for that script. Programs decide right-to-left layout from this, so a guess here mirrors a whole game. |
-| `shaping` | `yes`, `min` or `no`, the `shapingReq` field of CLDR's `scriptMetadata.json` for that script: whether its letters are shaped together (joined, reordered, stacked). Programs keep a game's letter spacing out of a text in such a script — spaced, its joined letters come apart. |
 | `parent` | only for a variety: `Egyptian Arabic` has `Arabic` as its parent, so a picker can group them instead of scattering them alphabetically. |
 | `aliases` | what someone would actually type. An Egyptian says "Egyptian", not "Egyptian Arabic". |
 

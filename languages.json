@@ -25,7 +25,6 @@
       "tag": "en",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "gb",
       "providers": {
         "google": "en",
@@ -40,7 +39,6 @@
       "tag": "fr",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "fr",
       "providers": {
         "google": "fr",
@@ -55,7 +53,6 @@
       "tag": "de",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "de",
       "providers": {
         "google": "de",
@@ -70,7 +67,6 @@
       "tag": "es",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "es",
       "providers": {
         "google": "es",
@@ -85,7 +81,6 @@
       "tag": "it",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "it",
       "providers": {
         "google": "it",
@@ -100,7 +95,6 @@
       "tag": "pt",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "pt",
       "providers": {
         "google": "pt",
@@ -115,7 +109,6 @@
       "tag": "ru",
       "script": "Cyrl",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "ru",
       "providers": {
         "google": "ru",
@@ -130,7 +123,6 @@
       "tag": "pl",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "pl",
       "providers": {
         "google": "pl",
@@ -145,7 +137,6 @@
       "tag": "ja",
       "script": "Jpan",
       "direction": "ltr",
-      "shaping": "no",
       "flag": "jp",
       "providers": {
         "google": "ja",
@@ -160,7 +151,6 @@
       "tag": "ko",
       "script": "Kore",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "kr",
       "providers": {
         "google": "ko",
@@ -175,7 +165,6 @@
       "tag": "zh",
       "script": "Hans",
       "direction": "ltr",
-      "shaping": "no",
       "flag": "cn",
       "also": [
         "zh-cn",
@@ -194,7 +183,6 @@
       "tag": "zh-tw",
       "script": "Hant",
       "direction": "ltr",
-      "shaping": "no",
       "flag": "tw",
       "also": [
         "zh-hant"
@@ -212,7 +200,6 @@
       "tag": "ar",
       "script": "Arab",
       "direction": "rtl",
-      "shaping": "yes",
       "flag": "sa",
       "providers": {
         "google": "ar",
@@ -227,7 +214,6 @@
       "tag": "tr",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "tr",
       "providers": {
         "google": "tr",
@@ -242,7 +228,6 @@
       "tag": "nl",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "nl",
       "providers": {
         "google": "nl",
@@ -257,7 +242,6 @@
       "tag": "sv",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "se",
       "providers": {
         "google": "sv",
@@ -272,7 +256,6 @@
       "tag": "da",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "dk",
       "providers": {
         "google": "da",
@@ -287,7 +270,6 @@
       "tag": "nb",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "no",
       "also": [
         "no"
@@ -305,7 +287,6 @@
       "tag": "fi",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "fi",
       "providers": {
         "google": "fi",
@@ -320,7 +301,6 @@
       "tag": "cs",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "cz",
       "providers": {
         "google": "cs",
@@ -335,7 +315,6 @@
       "tag": "hu",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "hu",
       "providers": {
         "google": "hu",
@@ -350,7 +329,6 @@
       "tag": "ro",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "ro",
       "providers": {
         "google": "ro",
@@ -365,7 +343,6 @@
       "tag": "el",
       "script": "Grek",
       "direction": "ltr",
-      "shaping": "no",
       "flag": "gr",
       "providers": {
         "google": "el",
@@ -380,7 +357,6 @@
       "tag": "th",
       "script": "Thai",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "th",
       "providers": {
         "google": "th",
@@ -395,7 +371,6 @@
       "tag": "vi",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "vn",
       "providers": {
         "google": "vi",
@@ -410,7 +385,6 @@
       "tag": "id",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "id",
       "providers": {
         "google": "id",
@@ -425,7 +399,6 @@
       "tag": "ms",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "my",
       "providers": {
         "google": "ms",
@@ -440,7 +413,6 @@
       "tag": "uk",
       "script": "Cyrl",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "ua",
       "providers": {
         "google": "uk",
@@ -455,7 +427,6 @@
       "tag": "bg",
       "script": "Cyrl",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "bg",
       "providers": {
         "google": "bg",
@@ -470,7 +441,6 @@
       "tag": "sk",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "sk",
       "providers": {
         "google": "sk",
@@ -485,7 +455,6 @@
       "tag": "hr",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "hr",
       "providers": {
         "google": "hr",
@@ -500,7 +469,6 @@
       "tag": "sr",
       "script": "Cyrl",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "rs",
       "providers": {
         "google": "sr",
@@ -515,7 +483,6 @@
       "tag": "sl",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "si",
       "providers": {
         "google": "sl",
@@ -530,7 +497,6 @@
       "tag": "lt",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "lt",
       "providers": {
         "google": "lt",
@@ -545,7 +511,6 @@
       "tag": "lv",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "lv",
       "providers": {
         "google": "lv",
@@ -560,7 +525,6 @@
       "tag": "et",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "ee",
       "providers": {
         "google": "et",
@@ -575,7 +539,6 @@
       "tag": "nn",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "no",
       "providers": {
         "google": "no",
@@ -590,7 +553,6 @@
       "tag": "is",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "is",
       "providers": {
         "google": "is",
@@ -605,7 +567,6 @@
       "tag": "fo",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "fo",
       "providers": {
         "google": null,
@@ -617,7 +578,6 @@
       "tag": "ga",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "ie",
       "providers": {
         "google": "ga",
@@ -632,7 +592,6 @@
       "tag": "cy",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "gb-wls",
       "providers": {
         "google": "cy",
@@ -647,7 +606,6 @@
       "tag": "ca",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "es-ct",
       "providers": {
         "google": "ca",
@@ -662,7 +620,6 @@
       "tag": "gl",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "es-ga",
       "providers": {
         "google": "gl",
@@ -677,7 +634,6 @@
       "tag": "eu",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "es-pv",
       "providers": {
         "google": "eu",
@@ -692,7 +648,6 @@
       "tag": "lb",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "lu",
       "providers": {
         "google": "lb",
@@ -707,7 +662,6 @@
       "tag": "af",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "za",
       "providers": {
         "google": "af",
@@ -722,7 +676,6 @@
       "tag": "mk",
       "script": "Cyrl",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "mk",
       "providers": {
         "google": "mk",
@@ -737,7 +690,6 @@
       "tag": "bs",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "ba",
       "providers": {
         "google": "bs",
@@ -752,7 +704,6 @@
       "tag": "sq",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "al",
       "providers": {
         "google": "sq",
@@ -767,7 +718,6 @@
       "tag": "hy",
       "script": "Armn",
       "direction": "ltr",
-      "shaping": "no",
       "flag": "am",
       "providers": {
         "google": "hy",
@@ -782,7 +732,6 @@
       "tag": "be",
       "script": "Cyrl",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "by",
       "providers": {
         "google": "be",
@@ -797,7 +746,6 @@
       "tag": "fa",
       "script": "Arab",
       "direction": "rtl",
-      "shaping": "yes",
       "flag": "ir",
       "providers": {
         "google": "fa",
@@ -812,7 +760,6 @@
       "tag": "prs",
       "script": "Arab",
       "direction": "rtl",
-      "shaping": "yes",
       "flag": "af",
       "parent": "Persian",
       "aliases": [
@@ -831,7 +778,6 @@
       "tag": "tg",
       "script": "Cyrl",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "tj",
       "providers": {
         "google": "tg",
@@ -846,7 +792,6 @@
       "tag": "hi",
       "script": "Deva",
       "direction": "ltr",
-      "shaping": "yes",
       "flag": "in",
       "providers": {
         "google": "hi",
@@ -861,7 +806,6 @@
       "tag": "bn",
       "script": "Beng",
       "direction": "ltr",
-      "shaping": "yes",
       "flag": "bd",
       "providers": {
         "google": "bn",
@@ -876,7 +820,6 @@
       "tag": "ur",
       "script": "Arab",
       "direction": "rtl",
-      "shaping": "yes",
       "flag": "pk",
       "providers": {
         "google": "ur",
@@ -891,7 +834,6 @@
       "tag": "pa",
       "script": "Guru",
       "direction": "ltr",
-      "shaping": "yes",
       "flag": "in",
       "providers": {
         "google": "pa",
@@ -906,7 +848,6 @@
       "tag": "gu",
       "script": "Gujr",
       "direction": "ltr",
-      "shaping": "yes",
       "flag": "in",
       "providers": {
         "google": "gu",
@@ -921,7 +862,6 @@
       "tag": "mr",
       "script": "Deva",
       "direction": "ltr",
-      "shaping": "yes",
       "flag": "in",
       "providers": {
         "google": "mr",
@@ -936,7 +876,6 @@
       "tag": "ta",
       "script": "Taml",
       "direction": "ltr",
-      "shaping": "yes",
       "flag": "in",
       "providers": {
         "google": "ta",
@@ -951,7 +890,6 @@
       "tag": "te",
       "script": "Telu",
       "direction": "ltr",
-      "shaping": "yes",
       "flag": "in",
       "providers": {
         "google": "te",
@@ -966,7 +904,6 @@
       "tag": "kn",
       "script": "Knda",
       "direction": "ltr",
-      "shaping": "yes",
       "flag": "in",
       "providers": {
         "google": "kn",
@@ -978,7 +915,6 @@
       "tag": "ml",
       "script": "Mlym",
       "direction": "ltr",
-      "shaping": "yes",
       "flag": "in",
       "providers": {
         "google": "ml",
@@ -993,7 +929,6 @@
       "tag": "or",
       "script": "Orya",
       "direction": "ltr",
-      "shaping": "yes",
       "flag": "in",
       "providers": {
         "google": "or",
@@ -1005,7 +940,6 @@
       "tag": "si",
       "script": "Sinh",
       "direction": "ltr",
-      "shaping": "yes",
       "flag": "lk",
       "providers": {
         "google": "si",
@@ -1017,7 +951,6 @@
       "tag": "ne",
       "script": "Deva",
       "direction": "ltr",
-      "shaping": "yes",
       "flag": "np",
       "providers": {
         "google": "ne",
@@ -1032,7 +965,6 @@
       "tag": "as",
       "script": "Beng",
       "direction": "ltr",
-      "shaping": "yes",
       "flag": "in",
       "providers": {
         "google": "as",
@@ -1047,7 +979,6 @@
       "tag": "sd",
       "script": "Arab",
       "direction": "rtl",
-      "shaping": "yes",
       "flag": "pk",
       "providers": {
         "google": "sd",
@@ -1059,7 +990,6 @@
       "tag": "yue",
       "script": "Hant",
       "direction": "ltr",
-      "shaping": "no",
       "flag": "hk",
       "aliases": [
         "Yue Chinese"
@@ -1077,7 +1007,6 @@
       "tag": "my",
       "script": "Mymr",
       "direction": "ltr",
-      "shaping": "yes",
       "flag": "mm",
       "providers": {
         "google": "my",
@@ -1092,7 +1021,6 @@
       "tag": "km",
       "script": "Khmr",
       "direction": "ltr",
-      "shaping": "yes",
       "flag": "kh",
       "providers": {
         "google": "km",
@@ -1104,7 +1032,6 @@
       "tag": "lo",
       "script": "Laoo",
       "direction": "ltr",
-      "shaping": "yes",
       "flag": "la",
       "providers": {
         "google": "lo",
@@ -1116,7 +1043,6 @@
       "tag": "tl",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "ph",
       "providers": {
         "google": "tl",
@@ -1131,7 +1057,6 @@
       "tag": "ceb",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "ph",
       "providers": {
         "google": "ceb",
@@ -1146,7 +1071,6 @@
       "tag": "jv",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "id",
       "providers": {
         "google": "jv",
@@ -1161,7 +1085,6 @@
       "tag": "su",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "id",
       "providers": {
         "google": "su",
@@ -1176,7 +1099,6 @@
       "tag": "az",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "az",
       "providers": {
         "google": "az",
@@ -1191,7 +1113,6 @@
       "tag": "uz",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "uz",
       "providers": {
         "google": "uz",
@@ -1206,7 +1127,6 @@
       "tag": "kk",
       "script": "Cyrl",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "kz",
       "providers": {
         "google": "kk",
@@ -1221,7 +1141,6 @@
       "tag": "ba",
       "script": "Cyrl",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "ru-ba",
       "providers": {
         "google": "ba",
@@ -1236,7 +1155,6 @@
       "tag": "tt",
       "script": "Cyrl",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "ru-ta",
       "providers": {
         "google": "tt",
@@ -1251,7 +1169,6 @@
       "tag": "he",
       "script": "Hebr",
       "direction": "rtl",
-      "shaping": "no",
       "flag": "il",
       "also": [
         "iw"
@@ -1269,7 +1186,6 @@
       "tag": "mt",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "mt",
       "providers": {
         "google": "mt",
@@ -1284,7 +1200,6 @@
       "tag": "arz",
       "script": "Arab",
       "direction": "rtl",
-      "shaping": "yes",
       "flag": "eg",
       "parent": "Arabic",
       "providers": {
@@ -1298,7 +1213,6 @@
       "parent": "Arabic",
       "script": "Arab",
       "direction": "rtl",
-      "shaping": "yes",
       "providers": {
         "google": null,
         "deepl": null
@@ -1309,7 +1223,6 @@
       "tag": "ary",
       "script": "Arab",
       "direction": "rtl",
-      "shaping": "yes",
       "flag": "ma",
       "parent": "Arabic",
       "providers": {
@@ -1322,7 +1235,6 @@
       "tag": "ka",
       "script": "Geor",
       "direction": "ltr",
-      "shaping": "no",
       "flag": "ge",
       "providers": {
         "google": "ka",
@@ -1337,7 +1249,6 @@
       "tag": "sw",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "ke",
       "providers": {
         "google": "sw",
@@ -1352,7 +1263,6 @@
       "tag": "ht",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "ht",
       "providers": {
         "google": "ht",
@@ -1367,7 +1277,6 @@
       "tag": "br",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "fr-bre",
       "providers": {
         "google": "br",
@@ -1379,7 +1288,6 @@
       "tag": "oc",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "fr-oci",
       "providers": {
         "google": "oc",
@@ -1391,7 +1299,6 @@
       "tag": "co",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "fr-cor",
       "providers": {
         "google": "co",
@@ -1403,7 +1310,6 @@
       "tag": "gd",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "gb-sct",
       "providers": {
         "google": "gd",
@@ -1415,7 +1321,6 @@
       "tag": "kw",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "gb-cor",
       "providers": {
         "google": "kw",
@@ -1427,7 +1332,6 @@
       "tag": "gv",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "im",
       "providers": {
         "google": "gv",
@@ -1439,7 +1343,6 @@
       "tag": "ps",
       "script": "Arab",
       "direction": "rtl",
-      "shaping": "yes",
       "flag": "af",
       "providers": {
         "google": "ps",
@@ -1451,7 +1354,6 @@
       "tag": "mn",
       "script": "Cyrl",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "mn",
       "providers": {
         "google": "mn",
@@ -1463,7 +1365,6 @@
       "tag": "ky",
       "script": "Cyrl",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "kg",
       "providers": {
         "google": "ky",
@@ -1475,7 +1376,6 @@
       "tag": "tk",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "tm",
       "providers": {
         "google": "tk",
@@ -1487,7 +1387,6 @@
       "tag": "am",
       "script": "Ethi",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "et",
       "providers": {
         "google": "am",
@@ -1499,7 +1398,6 @@
       "tag": "yo",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "ng",
       "providers": {
         "google": "yo",
@@ -1511,7 +1409,6 @@
       "tag": "ig",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "ng",
       "providers": {
         "google": "ig",
@@ -1523,7 +1420,6 @@
       "tag": "ha",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "ng",
       "providers": {
         "google": "ha",
@@ -1535,7 +1431,6 @@
       "tag": "zu",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "za",
       "providers": {
         "google": "zu",
@@ -1547,7 +1442,6 @@
       "tag": "xh",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "za",
       "providers": {
         "google": "xh",
@@ -1559,7 +1453,6 @@
       "tag": "so",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "so",
       "providers": {
         "google": "so",
@@ -1571,7 +1464,6 @@
       "tag": "mg",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "mg",
       "providers": {
         "google": "mg",
@@ -1583,7 +1475,6 @@
       "tag": "gn",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "py",
       "providers": {
         "google": "gn",
@@ -1595,7 +1486,6 @@
       "tag": "mi",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "nz",
       "providers": {
         "google": "mi",
@@ -1607,7 +1497,6 @@
       "tag": "eo",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "eo",
       "providers": {
         "google": "eo",
@@ -1619,7 +1508,6 @@
       "tag": "ku",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "providers": {
         "google": "ku",
         "deepl": null
@@ -1630,7 +1518,6 @@
       "tag": "ckb",
       "script": "Arab",
       "direction": "rtl",
-      "shaping": "yes",
       "providers": {
         "google": "ckb",
         "deepl": null
@@ -1641,7 +1528,6 @@
       "tag": "ug",
       "script": "Arab",
       "direction": "rtl",
-      "shaping": "yes",
       "providers": {
         "google": "ug",
         "deepl": null
@@ -1652,7 +1538,6 @@
       "tag": "bo",
       "script": "Tibt",
       "direction": "ltr",
-      "shaping": "yes",
       "providers": {
         "google": "bo",
         "deepl": null
@@ -1663,7 +1548,6 @@
       "tag": "qu",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "providers": {
         "google": "qu",
         "deepl": null
@@ -1674,7 +1558,6 @@
       "tag": "la",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "providers": {
         "google": "la",
         "deepl": null
@@ -1685,7 +1568,6 @@
       "tag": "yi",
       "script": "Hebr",
       "direction": "rtl",
-      "shaping": "no",
       "providers": {
         "google": "yi",
         "deepl": null
@@ -1696,7 +1578,6 @@
       "tag": "fy",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "nl-fr",
       "providers": {
         "google": "fy",
@@ -1708,7 +1589,6 @@
       "tag": "ast",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "es-as",
       "providers": {
         "google": "ast",
@@ -1720,7 +1600,6 @@
       "tag": "an",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "es-ar",
       "providers": {
         "google": null,
@@ -1732,7 +1611,6 @@
       "tag": "sc",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "it-88",
       "providers": {
         "google": null,
@@ -1744,7 +1622,6 @@
       "tag": "scn",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "it-82",
       "providers": {
         "google": "scn",
@@ -1756,7 +1633,6 @@
       "tag": "vec",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "it-34",
       "providers": {
         "google": "vec",
@@ -1768,7 +1644,6 @@
       "tag": "fur",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "it-36",
       "providers": {
         "google": "fur",
@@ -1780,7 +1655,6 @@
       "tag": "lij",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "it-42",
       "providers": {
         "google": "lij",
@@ -1792,7 +1666,6 @@
       "tag": "lmo",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "it-25",
       "providers": {
         "google": "lmo",
@@ -1804,7 +1677,6 @@
       "tag": "nap",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "it-72",
       "providers": {
         "google": "nap",
@@ -1816,7 +1688,6 @@
       "tag": "szl",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "pl-sl",
       "providers": {
         "google": "szl",
@@ -1828,7 +1699,6 @@
       "tag": "li",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "nl-li",
       "providers": {
         "google": "li",
@@ -1840,7 +1710,6 @@
       "tag": "nds",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "de-nds",
       "providers": {
         "google": "nds",
@@ -1852,7 +1721,6 @@
       "tag": "rm",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "ch-gr",
       "providers": {
         "google": null,
@@ -1864,7 +1732,6 @@
       "tag": "se",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "sapmi",
       "providers": {
         "google": "se",
@@ -1876,7 +1743,6 @@
       "tag": "ltg",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "lv-ltg",
       "providers": {
         "google": "ltg",
@@ -1888,7 +1754,6 @@
       "tag": "rom",
       "script": "Latn",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "rom",
       "providers": {
         "google": "rom",
@@ -1900,7 +1765,6 @@
       "tag": "kv",
       "script": "Cyrl",
       "direction": "ltr",
-      "shaping": "min",
       "flag": "ru-ko",
       "providers": {
         "google": "kv",
